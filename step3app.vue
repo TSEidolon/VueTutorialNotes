@@ -10,6 +10,7 @@ export default {
 
 <template>
   <!--v binds the style linked to titleClass through the .title class below in <style>  -->
+    <!-- v-bind: shortcut ==> : -->
   <h1 :class="titleClass" > Make me red </h1>
 </template>
 
